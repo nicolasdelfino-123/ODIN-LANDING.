@@ -1,0 +1,248 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    background-color: #1f2937;
+    min-height: 500px;
+    flex-direction: column;
+}
+
+.segundo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 200px;
+    margin-top: 10px;
+}
+
+.left-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.right-content {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thisweb {
+    font-size: 48px;
+    color: #F9F4F8;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 100px;
+}
+
+.buttons:hover {
+    background-color: #0056b3;
+}
+
+.image1 {
+    width: 100%;
+    height: 300px;
+    max-width: 500px;
+    margin-top: 110px;
+    max-height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.listnav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.listnav li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.images-main{
+    display: flex;
+    background-color: white;
+    min-height: 500px;
+    justify-content: center;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: -46px;
+     
+}
+
+.title-main {
+    display:flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 25px;
+    margin-top: 50px;
+    
+}
+
+.image2{
+    width: 80%;
+    height: 200px;
+    max-width: 500px;
+    margin-top: 110px;
+    max-height: 240px;
+    object-fit: cover;
+    border-radius: 28px;
+    border: 2px solid #3882f6;
+
+}
+
+.text {
+    display:flex;
+    color:#1f2937;
+    text-align: center;
+    width: 80%;
+    
+    
+
+}
+.container2{
+    min-height: 400px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.text-quote {
+    display: flex;
+    font-style: italic;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    justify-content: center;
+    padding: 0px 300px;
+    text-align: start;
+    font-weight: 300px; 
+    align-items: center;
+    margin-top: 150px;
+}
+
+cite{
+    font-size: 25px; /* Ajusta el tamaño de la fuente para la firma */
+    font-weight: 550; /* Asegura el mismo peso de fuente que el texto de la cita */
+    color: #03080f; /* Color de la firma */
+    margin-top: 10px; /* Espacio entre la cita y la firma */
+    text-align: end;
+    margin-left: 500px; /* Alinea la firma al centro */
+    font-style: normal; /* Asegúrate de que el texto no esté en cursiva */
+    
+}
+
+.container-call{
+    min-height: 400px;
+    display: flex;  
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    
+}
+
+.paragraph-call{
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-right: 0px;
+
+}
+
+.subcontainer{
+    background-color: #3882f6;
+    padding-left: 100px;
+    padding: 40px 130px;
+    border-radius: 10px;
+    display: flex;              
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+
+
+
+
+}
+
+.text-call{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+
+}
+
+.button-call{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 40px;   
+}
+    
+.button-call:hover {
+    background-color: #0056b3;
+}
+.text-content{
+    flex:1;
+}
+
+.footer{
+    background-color:#1f2937;
+    height: 90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
