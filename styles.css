@@ -246,3 +246,15 @@ cite{
     align-items: center;
     color: white;
 }
+
+.listnav a {
+    text-decoration: none; /* Quitar subrayado predeterminado */
+    color: #f1f3f5; /* Color del texto */
+    /* font-weight: bold; /* Negrita */ */
+    transition: all 0.3s ease; /* Transición suave para cambios de estilo */
+}
+
+.listnav a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+    cursor: pointer; /* Mostrar una mano en hover */
+}
